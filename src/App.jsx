@@ -32,8 +32,8 @@ function App() {
       {/* Sidebar */}
       <div
         className={`fixed lg:static w-[80%] md:w-[40%] lg:w-full top-0 z-50 bg-white transition-all ${
-          sidebar ? "-left-0" : "-left-full"
-        } w-full h-full overflow-y-scroll col-span-1 p-8 border-r`}
+          sidebar ? "left-0" : "-left-full"
+        } h-full overflow-y-scroll col-span-1 p-8 border-r`}
       >
         {/* Logotipo */}
         <div className="text-center p-8">
